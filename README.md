@@ -39,6 +39,7 @@ Products can be sorted by name, price or weight
 
 - Products name must be longer than 3 characters or throw an error if shorter
 - Products id cannot be updated
+- Product can be added by an admin or employee
 
 ### Orders
 
@@ -60,6 +61,8 @@ Order have:
 * Are offered 5% discount when the price exceeds 1000€
 * Shipment costs 25€ for every 10 more kg (50€ for 20kg, 75€ for 30kg, etc.)
 
+* Order can only be created by customer role
+
 #### Bills
 
 Can be listed
@@ -74,3 +77,4 @@ Have an:
 #### Rules
 
 * Are automatically generated when an order status is set to paid
+* Bills can only be deleted by admin

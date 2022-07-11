@@ -1,0 +1,3 @@
+class HealthDto {
+  status: string;
+}
