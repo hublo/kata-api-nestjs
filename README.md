@@ -1,9 +1,10 @@
 # Hublo Shop (in NestJS)
 
 # Introduction 
+Hublo has decided ta launch a shop to sell equipment for hospital.
+In this Kata you will implement Hublo shop Rest API.
 
 This kata offers a set of features to practice your API programming skills. It covers basic HTTP verbs and codes.
-In this Kata you will implement Hublo shop Rest API.
 
 ### Requirements 
 
@@ -78,3 +79,17 @@ Have an:
 
 * Are automatically generated when an order status is set to paid
 * Bills can only be deleted by admin
+
+
+## Code 
+
+### Advices
+
+#### Class validator 
+
+You can use decorator from this package to validate your input data. [see class validator](https://github.com/typestack/class-validator)
+
+#### Class transformer
+
+You can use [class transformer](https://github.com/typestack/class-transformer) to transform domain object into DTO.
+

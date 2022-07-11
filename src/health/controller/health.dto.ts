@@ -1,3 +1,0 @@
-class HealthDto {
-  status: string;
-}
