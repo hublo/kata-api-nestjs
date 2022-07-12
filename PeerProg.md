@@ -44,47 +44,12 @@ Products can be sorted by name, price or weight
 - Products id cannot be updated
 - Product can be managed by an admin or employee role
 
-### Orders
+## Questions 
 
-Can be : created, listed, updated and deleted
+1. Following the business rules create an endpoint to add a product in the database.
+2. How can you ensure that only an admin can add a product to a shop.
 
-#### Definition
-
-Order have:
-
-* a status 
-* a product list with a quantity per product
-* a shipment amount
-* a total amount and a weight
-
-
-#### Rules
-
-* Orders status can be pending, paid or canceled
-* Are offered 5% discount when the price exceeds 1000€
-* Shipment costs 25€ for every 10 more kg (50€ for 20kg, 75€ for 30kg, etc.)
-
-* Order can only be created by customer role
-
-#### Bills
-
-Can be listed
-
-#### Definition
-
-Have an:
-* amount 
-* creation 
-* date
-
-#### Rules
-
-* Are automatically generated when an order status is set to paid
-* Bills can only be deleted by admin role
-
-
-# Code
-### Advices
+## Advices
 
 #### Class validator 
 
