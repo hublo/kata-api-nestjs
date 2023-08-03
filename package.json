@@ -29,7 +29,7 @@
     "class-validator": "^0.13.2",
     "@fastify/cookie": "6.0.0",
     "dotenv-flow": "^3.2.0",
-    "fastify": "3.29.0",
+    "fastify": "3.29.4",
     "fastify-swagger": "^5.2.0",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
